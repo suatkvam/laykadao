@@ -9,7 +9,7 @@ import { THEME } from '../constants'
 import Hero from '../components/hero'
 
 function HomePage() {
-  const store = useContext(StoreContext)
+  /*const store = useContext(StoreContext)*/
 
   return (
     <Layout>

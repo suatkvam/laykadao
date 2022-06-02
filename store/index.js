@@ -1,3 +1,4 @@
+/*
 import React, { createContext, useEffect, useState } from 'react'
 import { THEME } from '../constants'
 
@@ -31,3 +32,4 @@ export function StoreProvider({ children }) {
 }
 
 export default StoreContext
+*/
