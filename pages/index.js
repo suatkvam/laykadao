@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 import Button from '../components/button'
 import * as Icon from '../components/icons'
 import { THEME } from '../constants'
+import Hero from '../components/hero'
 
 function HomePage() {
   const store = useContext(StoreContext)
@@ -16,16 +17,69 @@ function HomePage() {
         <title>Home Page</title>
       </Head>
 
-      <h1>Home page</h1>
-
+      <Hero />
       <br />
 
       <Icon.Search style={{ fontSize: 24 }} />
 
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
 
-      <div>
+      {/*<div>
         Change Theme{' '}
         <Button
           onClick={() =>
@@ -36,7 +90,7 @@ function HomePage() {
         >
           {store.theme === THEME.LIGHT ? 'Dark' : 'Light'}
         </Button>
-      </div>
+      </div>*/}
 
       <br />
       <br />

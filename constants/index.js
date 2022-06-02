@@ -1,15 +1,22 @@
-export const THEME = {
-  LIGHT: 'theme-light',
-  DARK: 'theme-dark'
-}
-
 export const PAGES = {
   home: {
     path: '/',
-    name: 'Home'
+    name: 'Ana Sayfa'
   },
   about: {
     path: '/about',
-    name: 'About'
+    name: 'Hakkımızda'
+  },
+  /*  inkubasyon: {
+    path: '/inkubasyon',
+    name: 'İnkübasyon'
+  },*/
+  projelerimiz: {
+    path: '/projelerimiz',
+    name: 'Projelerimiz'
+  },
+  documentation: {
+    path: '/documentation',
+    name: 'Dökümantasyon'
   }
 }

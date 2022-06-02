@@ -1,10 +1,53 @@
 :root {
-  --c-primary: white;
-  --c-text: black;
-  --fade: 120ms;
-}
+  --c-primary: #090b1b;
+  --c-text: #ffffff;
 
-.theme-dark {
-  --c-primary: black;
-  --c-text: white;
+  --lacivert: #1b214f;
+  --somon: #f8afa7;
+
+  --div-bg: linear-gradient(
+    139.13deg,
+    rgba(152, 184, 207, 0.08) 0%,
+    rgba(172, 74, 213, 0.05) 100%
+  );
+
+  --div-hover: linear-gradient(
+    139.13deg,
+    rgba(152, 184, 207, 0.34) 0%,
+    rgba(172, 74, 213, 0.05) 100%
+  );
+
+  --stroke-base: radial-gradient(
+      100% 100% at 0% 0%,
+      rgba(82, 84, 97, 0.78) 0%,
+      rgba(93, 94, 97, 0.07) 100%
+    )
+    radial-gradient(
+      100% 100% at 0% 0%,
+      #b09895 0%,
+      rgba(153, 124, 121, 0.15) 100%
+    )
+    radial-gradient(
+      104.89% 104.89% at 0% 0%,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+
+  --stroke-hover: radial-gradient(
+      100% 100% at 0% 0%,
+      rgba(60, 67, 124, 0.76) 0%,
+      rgba(25, 41, 164, 0.22) 100%
+    ),
+    radial-gradient(
+      100% 100% at 0% 0%,
+      #f8afa7 0%,
+      rgba(248, 175, 167, 0.35) 100%
+    ),
+    radial-gradient(
+      104.89% 104.89% at 0% 0%,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+
+  --fade: 120ms;
 }

@@ -10,7 +10,7 @@
     "start": "next start",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o public/ui",
-    "icon": "svgr icons -d components/icons --icon"
+    "icon": "svgr icons -d components/icons"
   },
   "dependencies": {
     "classnames": "^2.2.6",
