@@ -4,7 +4,7 @@ export const PAGES = {
     name: 'Ana Sayfa'
   },
   about: {
-    path: '/about',
+    path: '/',
     name: 'Hakkımızda'
   },
   /*  inkubasyon: {
