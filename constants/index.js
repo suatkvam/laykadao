@@ -12,11 +12,11 @@ export const PAGES = {
     name: 'İnkübasyon'
   },*/
   projelerimiz: {
-    path: '/projelerimiz',
+    path: '#',
     name: 'Projelerimiz'
   },
   documentation: {
-    path: '/documentation',
+    path: '#',
     name: 'Dökümantasyon'
   }
 }
