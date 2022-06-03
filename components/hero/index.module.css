@@ -1,11 +1,49 @@
 .hero {
   margin-top: 6rem;
-
   margin-left: auto;
   margin-right: auto;
 
-  h1 {
+ 
+ /* h1 {
     max-width: 630px;
     text-align: center;
-  }
+  } */
 }
+.text{
+  color: var(--c-text);
+}
+
+.text:first-child{
+  
+  font-family: 'Lato';
+  font-style: bold;
+  text-align: center;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 4.7rem;
+}
+.text:nth-child(2){
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  
+  /* font-size: 1.7rem; */
+  padding-top: 1.5rem;
+  margin-left: 9rem;
+}
+
+.btn{
+
+  margin-top: 1.5rem;
+  margin-left: 43.12%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  
+}
+
+
+

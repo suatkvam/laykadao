@@ -20,7 +20,7 @@ function HomePage() {
       <Hero />
       <br />
 
-      <Icon.Search style={{ fontSize: 24 }} />
+      {/* <Icon.Search style={{ fontSize: 24 }} /> */}
 
       <br />
       <br />
