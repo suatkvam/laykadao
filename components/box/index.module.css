@@ -1,0 +1,49 @@
+/* margin top ve padding ayarlanması gerekebilir başka bilgisayarlar için */
+
+.box{
+    
+    margin-top: 74px;
+    width: 391;
+    height: 594;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 17px;
+    border-radius: 23px;
+    background-color: var(--div-bg);
+    padding-left: 24px;
+    transition: 1.5s;
+}
+.box:hover{
+
+    background-color: var(--div-hover);
+    
+}
+
+.imgBox{
+    width: 80%;
+    height: 80%;
+}
+
+.texts{
+    display: flex;
+    margin-top: 0.9rem;
+}
+.title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+
+}
+.desc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+}

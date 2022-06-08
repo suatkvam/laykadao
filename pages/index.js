@@ -7,6 +7,8 @@ import Button from '../components/button'
 import * as Icon from '../components/icons'
 import { THEME } from '../constants'
 import Hero from '../components/hero'
+import Container from '../components/cotainer'
+import Texts from '../components/textBox'
 
 function HomePage() {
   /*const store = useContext(StoreContext)*/
@@ -32,6 +34,8 @@ function HomePage() {
       <br />
       <br />
       <br />
+      <Texts/>
+      <Container/>
       <br />
       <br />
       <br />

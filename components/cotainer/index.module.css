@@ -1,0 +1,13 @@
+/* margin top ve padding ayarlanması gerekebilir başka bilgisayarlar için */
+
+.container{
+    align-self: center;
+    margin-top: 50px;
+
+    display: flex;
+    /* align-items: flex-start; */
+    padding: 0px;
+    gap: 24px;
+    /* position: absolute; */
+}
+
